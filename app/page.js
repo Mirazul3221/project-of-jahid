@@ -26,7 +26,7 @@ export default function Home() {
     </header>
 
     {/* Services Section */}
-    <section className="services">
+    <section className="services px-6">
         <h2>Photo Editing Services We Provide</h2>
         <Service
             title="Portrait Photo Editing"
@@ -42,7 +42,7 @@ export default function Home() {
     </section>
 
     {/* How It Works Section */}
-    <section className="how-it-works">
+    <section className="how-it-works px-6">
         <h2>How Does It Work?</h2>
         <ul>
             <li>1. Upload your photos</li>
@@ -52,13 +52,13 @@ export default function Home() {
     </section>
 
     {/* Upload Section */}
-    <section className="upload">
+    <section className="upload px-6">
         <h2>Ready to Retouch Your Images?</h2>
         <button>UPLOAD IMAGE</button>
     </section>
 
     {/* Stats Section */}
-    <section className="stats">
+    <section className="stats px-6">
         <h3>Why Choose Us?</h3>
         <div className="stats-info">
             <div>2M+ Images Processed</div>
@@ -68,7 +68,7 @@ export default function Home() {
     </section>
 
     {/* Testimonials */}
-    <section className="testimonials">
+    <section className="testimonials px-6">
         <h2>Customer Feedback</h2>
         <blockquote>
             <p>"VeloxEdit delivered high-quality images in no time!"</p>
@@ -77,7 +77,7 @@ export default function Home() {
     </section>
 
     {/* Footer */}
-    <footer>
+    <footer className='px-6'>
         <div className="footer-content">
             <h3>VeloxEdit</h3>
             <ul>
