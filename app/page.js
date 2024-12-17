@@ -1,5 +1,6 @@
 'use client'
 import './common-css/page1.css'
+import MoveContainer from './components/MoveContainer';
 export default function Home() {
   return (
     <div className="App">
@@ -24,7 +25,9 @@ export default function Home() {
             </div>
         </div>
     </header>
-
+    
+   
+   <div className='w-1/2'><MoveContainer/></div>
     {/* Services Section */}
     <section className="services px-6">
         <h2>Photo Editing Services We Provide</h2>
@@ -40,7 +43,7 @@ export default function Home() {
         />
         {/* Add more services here */}
     </section>
-
+    <div className='md:w-1/2'><MoveContainer/></div>
     {/* How It Works Section */}
     <section className="how-it-works px-6">
         <h2>How Does It Work?</h2>
@@ -50,13 +53,13 @@ export default function Home() {
             <li>3. Get your images back in 24 hours</li>
         </ul>
     </section>
-
+    <div className='md:w-1/2'><MoveContainer/></div>
     {/* Upload Section */}
     <section className="upload px-6">
         <h2>Ready to Retouch Your Images?</h2>
         <button>UPLOAD IMAGE</button>
     </section>
-
+    <div className='md:w-1/2'><MoveContainer/></div>
     {/* Stats Section */}
     <section className="stats px-6">
         <h3>Why Choose Us?</h3>
