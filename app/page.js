@@ -1,5 +1,5 @@
-import Image from "next/image";
-
+'use client'
+import './common-css/page1.css'
 export default function Home() {
   return (
     <div className="App">
@@ -12,12 +12,12 @@ export default function Home() {
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="./portfolio">Portfolio</a></li>
                 </ul>
             </nav>
         </div>
         <div className="hero">
-            <img src="/images/banner-image.jpg" alt="Hero Banner" />
+            <img className='w-full' src="https://t3.ftcdn.net/jpg/03/16/91/28/360_F_316912806_RCeHVmUx5LuBMi7MKYTY5arkE4I0DcpU.jpg" alt="Hero Banner" />
             <div className="hero-text">
                 <h2>PROFESSIONAL PHOTO EDITING</h2>
                 <p>From $0.25 per Image Retouch</p>
@@ -31,12 +31,12 @@ export default function Home() {
         <Service
             title="Portrait Photo Editing"
             description="High-end retouching, skin smoothing, blemish removal..."
-            imgSrc="/images/portrait.jpg"
+            imgSrc="https://img.freepik.com/premium-photo/young-man-using-mobile-phone_1048944-3843184.jpg"
         />
         <Service
             title="Wedding Photo Editing"
             description="Perfect edits for wedding photography..."
-            imgSrc="/images/wedding.jpg"
+            imgSrc="https://img.freepik.com/premium-photo/young-man-using-mobile-phone_1048944-3843184.jpg"
         />
         {/* Add more services here */}
     </section>
